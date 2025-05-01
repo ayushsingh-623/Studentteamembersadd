@@ -1,0 +1,36 @@
+Build a full-stack web application called “Student Team Members Management Application” using the following stack:
+
+🛠 Tech Stack:
+	•	Frontend: React.js
+	•	Backend: Node.js + Express.js
+	•	Database: MongoDB
+	•	Use Axios for frontend-backend API communication
+	•	Use Multer for handling image uploads (profile pictures)
+	•	Store uploaded images in an uploads/ folder
+
+📄 Pages to Include:
+	1.	Home Page: A welcome/landing page that displays the team name, and navigation buttons to “Add Member” and “View Members”.
+	2.	Add Member Page: A form to add a new team member with fields: name, role, email/contact, and profile picture upload.
+	3.	View Members Page: Displays a list of all members in a card or table layout, showing their name, role, and profile image, along with a “View Details” button.
+	4.	Member Details Page: Displays full details of a single member when their card is clicked — including name, role, email/contact, and image.
+
+⚙️ API Requirements:
+	•	POST /api/members: Add a new member with image upload
+	•	GET /api/members: Retrieve all members
+	•	GET /api/members/:id: Retrieve details of one member
+
+💡 Functionality:
+	•	Use React Router to navigate between pages
+	•	Use basic CSS to give consistent styling across the app
+	•	Validate form inputs before submission
+
+📁 GitHub Setup:
+	•	Make the project public
+	•	Use a .gitignore file to exclude node_modules and other unnecessary files
+	•	Include a README.md with:
+	•	Project description
+	•	Installation steps
+	•	API endpoint descriptions
+	•	Instructions on how to run the app
+
+Ensure proper project folder structure and use best practices for frontend and backend separation. The app should be fully functional when cloned and run locally.

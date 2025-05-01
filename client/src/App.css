@@ -1,0 +1,111 @@
+/* Global Styles - Dark Theme */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #282c34; /* Dark background */
+  color: #e0e0e0; /* Light text */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  /* Container styles if needed */
+}
+
+/* Basic Form Styling */
+form {
+  background-color: #3a3a3a; /* Slightly lighter dark background for forms */
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 20px auto; /* Center form */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #bdbdbd; /* Lighter grey for labels */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"] {
+  width: calc(100% - 22px); /* Adjust width considering padding and border */
+  padding: 10px;
+  border: 1px solid #555; /* Darker border */
+  border-radius: 4px;
+  background-color: #444; /* Dark input background */
+  color: #e0e0e0; /* Light text in inputs */
+  font-size: 1em;
+}
+
+input[type="file"] {
+  padding: 7px;
+}
+
+/* Button Styling */
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #61dafb; /* React blue for primary actions */
+  color: #282c34; /* Dark text on buttons */
+  font-size: 1em;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #4fa8d1; /* Darker shade on hover */
+}
+
+/* Specific Button Styles (like delete) */
+button[style*="#dc3545"] { /* Target delete button by its inline style color */
+  background-color: #dc3545; /* Red for delete */
+  color: white;
+}
+
+button[style*="#dc3545"]:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+/* Link Styling */
+a {
+  color: #61dafb; /* React blue for links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Utility Classes */
+.error-message {
+  color: #ff6b6b; /* Light red for errors */
+  margin-top: 5px;
+  font-size: 0.9em;
+}
+
+/* Responsive adjustments if needed */
+@media (max-width: 600px) {
+  form {
+    max-width: 90%;
+  }
+}
+
+/* Add more specific styles for components like Navbar, MemberCard if needed */
+
