@@ -11,20 +11,19 @@ function Navbar() {
   );
 }
 
-// Basic styles for dark theme navbar
+// Updated styles for light theme navbar
 const navStyle = {
-  background: "#282c34", // Dark background
+  background: "#e9ecef", // Light background
   padding: "15px 20px",
   marginBottom: "30px",
-  boxShadow: "0 2px 4px rgba(0,0,0,0.2)"
+  boxShadow: "0 2px 4px rgba(0,0,0,0.1)"
 };
 
 const linkStyle = {
-  color: "#61dafb", // React blue for links
+  color: "#28a745", // Green for links
   marginRight: "20px",
   textDecoration: "none",
   fontSize: "1.1em"
 };
 
 export default Navbar;
-

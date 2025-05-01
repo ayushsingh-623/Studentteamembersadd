@@ -1,4 +1,4 @@
-/* Global Styles - Dark Theme */
+/* Global Styles - Light Theme */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -6,8 +6,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #282c34; /* Dark background */
-  color: #e0e0e0; /* Light text */
+  background-color: #f5f5f5; /* Light background */
+  color: #333333; /* Dark text */
 }
 
 code {
@@ -21,12 +21,12 @@ code {
 
 /* Basic Form Styling */
 form {
-  background-color: #3a3a3a; /* Slightly lighter dark background for forms */
+  background-color: #ffffff; /* White background for forms */
   padding: 20px;
   border-radius: 8px;
   max-width: 500px;
   margin: 20px auto; /* Center form */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 form div {
@@ -37,7 +37,7 @@ label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
-  color: #bdbdbd; /* Lighter grey for labels */
+  color: #555555; /* Darker grey for labels */
 }
 
 input[type="text"],
@@ -45,10 +45,10 @@ input[type="email"],
 input[type="file"] {
   width: calc(100% - 22px); /* Adjust width considering padding and border */
   padding: 10px;
-  border: 1px solid #555; /* Darker border */
+  border: 1px solid #ccc; /* Lighter border */
   border-radius: 4px;
-  background-color: #444; /* Dark input background */
-  color: #e0e0e0; /* Light text in inputs */
+  background-color: #fafafa; /* Light input background */
+  color: #333333; /* Dark text in inputs */
   font-size: 1em;
 }
 
@@ -62,15 +62,15 @@ button {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  background-color: #61dafb; /* React blue for primary actions */
-  color: #282c34; /* Dark text on buttons */
+  background-color: #28a745; /* Green for primary actions */
+  color: white; /* White text on buttons */
   font-size: 1em;
   font-weight: bold;
   transition: background-color 0.2s ease;
 }
 
 button:hover {
-  background-color: #4fa8d1; /* Darker shade on hover */
+  background-color: #218838; /* Darker green on hover */
 }
 
 /* Specific Button Styles (like delete) */
@@ -85,7 +85,7 @@ button[style*="#dc3545"]:hover {
 
 /* Link Styling */
 a {
-  color: #61dafb; /* React blue for links */
+  color: #28a745; /* Green for links */
   text-decoration: none;
 }
 
@@ -108,4 +108,3 @@ a:hover {
 }
 
 /* Add more specific styles for components like Navbar, MemberCard if needed */
-
